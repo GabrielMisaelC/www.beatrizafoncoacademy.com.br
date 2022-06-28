@@ -16,7 +16,7 @@ export function Login() {
         <InputPers width="100%" autoFocus={false} type='password' placeholder='Password'></InputPers>
         <br />
         <br />
-        <Button width="80%" text='Acess'></Button>
+        <Button width="80%" text='Acess' ></Button>
         <br />
         <br />
         <Column>
@@ -34,7 +34,7 @@ export function Login() {
         <br />
         <Button width="80%" text='Create my Accont'></Button>
       </Container>
-      <BaseBoard />
+      {/* <BaseBoard /> */}
     </Body>
   );
 }

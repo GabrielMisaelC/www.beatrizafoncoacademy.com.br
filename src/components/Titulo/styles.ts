@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const A = styled.a`
-  font-size: 20px;
+  font-size: 16px;
   font-family: EB Garamond;
   color: #000;
   font-style: normal;
@@ -14,5 +14,10 @@ export const A = styled.a`
     /* color: '#4B0082';
     font-size: 40px; */
     text-decoration: underline #000;
+    left: 0px;
+    top: 10px;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+    white-space: pre;
   }
 `;

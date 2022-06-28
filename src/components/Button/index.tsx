@@ -1,3 +1,4 @@
+import { Link, Navigate } from "react-router-dom";
 import { ButtonCss } from "./styles";
 
 
@@ -8,7 +9,11 @@ type IButton = {
 
 export function Button(props: IButton){
   
+  function onClick(){
+    console.log("Button")
+  }
+
   return(
-    <ButtonCss style={{width: props.width}}>{props.text}</ButtonCss>
+    <ButtonCss onClick={onClick} style={{width: props.width}}>{props.text}</ButtonCss>
   )
 }

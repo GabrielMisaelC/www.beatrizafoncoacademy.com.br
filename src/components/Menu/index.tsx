@@ -1,57 +1,36 @@
-import { Container, Row, Column } from './styles';
-import { BsCart, BsPersonCircle, BsHandbag, BsPerson } from 'react-icons/bs'
-import { MdOutlineLocationOn } from 'react-icons/md';
-import { Link } from 'react-router-dom';
+import { Container, Row, Column, Input } from './styles';
 import { Titulo } from '../Titulo';
+import { BiSearch } from 'react-icons/bi'
 
-
-// import Logo from './logo_Beatriz_Afonco.jpg';
 
 export function Menu() {
   return (
     <Container>
-      <Row>
-        <Column>
-          <Link to='/perfil'>
-            <BsPerson size={30} color={'#000000	'} /> </Link>
-        </Column>
-        {/* <Column>
-          <div className='logo-content'>
-            <img src={Logo} />
-          </div>
-        </Column> */}
-
-
+      <Row style={{
+        gap: 100,
+        justifyContent: 'center',
+      }}>
         <Column>
           <Row style={{
             gap: 100,
             justifyContent: 'center',
           }}>
-              <Titulo href='/teste' text='Produtos' />
-              <Titulo href='/teste' text='Serviços' />
-              <Titulo href='/teste' text='Fotos' />
+            <Titulo href='/teste' text='Produtos' />
+            <Titulo href='/teste' text='Serviços' />
+            <Titulo href='/teste' text='Fotos' />
           </Row>
         </Column>
-{/* 
         <Column>
-          <Titulo href='/teste' text='Produtos' />
-        </Column>
-        <Column>
-          <Titulo href='/teste' text='Serviços' />
-        </Column>
-
-        <Column>
-          <Titulo href='/teste' text='Fotos' />
-        </Column> */}
-
-        <Column>
-          <Row style={{
-            gap: 50,
-            justifyContent: 'center',
-          }}>
-            <MdOutlineLocationOn size={30} color={'#000000	'} />
-            <BsHandbag size={30} color={'#000000	'} />
-          </Row>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", backgroundColor: "#DCDCDC", justifyItems: "center", flex: "2" , width: "270px"}}>
+            <Row style={{
+              gap: 1,
+              justifyContent: 'center',
+              alignItems: 'center'
+            }}>
+              <Input placeholder='Digite sua Busca' />
+              <BiSearch size={30} color={'#808080	'} />
+            </Row>
+          </div>
         </Column>
       </Row>
     </Container>

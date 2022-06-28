@@ -10,6 +10,7 @@ export const ButtonCss = styled.button`
   /* width: 250px; */
   height: 40px;
   color: #FFF;
+
   &:hover {
     background-color: #191970;
   }
