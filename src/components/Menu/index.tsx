@@ -1,36 +1,22 @@
-import { Container, Row, Column, Input } from './styles';
-import { Titulo } from '../Titulo';
-import { BiSearch } from 'react-icons/bi'
-
+import { Container, Row, Column, Input, Nav } from './styles';
+import { MobileNavigation } from './mobileNavigation';
+import useMediaQuery from '../../hooks/useMediaQuery';
+import { Navigation } from './navigation';
+import { InputSearch } from '../InputBusca';
 
 export function Menu() {
+
+  const isScrenn900px = useMediaQuery('(max-width: 900px)')
+  const isScrennMin901px = useMediaQuery('(min-width: 901px')
+
   return (
     <Container>
-      <Row style={{
-        gap: 100,
-        justifyContent: 'center',
-      }}>
+      <Row>
         <Column>
-          <Row style={{
-            gap: 100,
-            justifyContent: 'center',
-          }}>
-            <Titulo href='/teste' text='Produtos' />
-            <Titulo href='/teste' text='Serviços' />
-            <Titulo href='/teste' text='Fotos' />
-          </Row>
+            {isScrenn900px ? <MobileNavigation /> : <Navigation />}
         </Column>
         <Column>
-          <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", backgroundColor: "#DCDCDC", justifyItems: "center", flex: "2" , width: "270px"}}>
-            <Row style={{
-              gap: 1,
-              justifyContent: 'center',
-              alignItems: 'center'
-            }}>
-              <Input placeholder='Digite sua Busca' />
-              <BiSearch size={30} color={'#808080	'} />
-            </Row>
-          </div>
+          {isScrennMin901px && <InputSearch />}
         </Column>
       </Row>
     </Container>

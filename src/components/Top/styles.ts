@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 5px 20px;
+  /* padding: 5px 20px; */
   background: #FFF;
   height: 80px;
   width: 97%;
@@ -20,6 +20,26 @@ export const Row = styled.div`
   display: flex;
   flex: 1;
 `;
+
+export const H1 = styled.h1`
+  font-family: 'Shadows Into Light';
+  font-size: 44px;
+
+
+  @media screen and (max-width: 1024px) {
+
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 300px) {  
+
+  }
+
+`;
+
 
 export const Column = styled.div`
   display: flex;

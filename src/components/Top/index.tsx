@@ -1,4 +1,4 @@
-import { Container, Row, Column } from './styles';
+import { Container, Row, Column, H1 } from './styles';
 import { BsCart, BsPersonCircle, BsHandbag, BsPerson } from 'react-icons/bs'
 import { MdOutlineLocationOn } from 'react-icons/md';
 import { Link } from 'react-router-dom';
@@ -20,7 +20,7 @@ export function Top() {
             gap: 100,
             justifyContent: 'center',
           }}>
-            <h1 style={{ fontFamily: "Shadows Into Light", fontSize: "44px"}}>Beatriz Afonço Beauty Academy</h1>
+            <H1>Beauty Academy</H1>
           </Row>
         </Column>
         <Column>

@@ -5,8 +5,6 @@ export const Container = styled.div`
   background: #FFF;
   height: 40px;
   width: 40%;
-  /* border: 5px solid;
-  border-color: #f4f4f4; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,7 +14,44 @@ export const Container = styled.div`
 export const Row = styled.div`
   display: flex;
   flex: 2;
-  
+  gap: 100;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Nav = styled.nav`
+
+  >ul{
+    display: flex;
+    flex: 2;
+    /* gap: 100; */
+    justify-content: 'center';
+    list-style: none;
+  }
+
+  @media screen and (max-width:   900px) {
+    align-items: center;
+    >ul{
+      flex-direction: column;
+      position: absolute;
+      left: 0;
+      top: 80px;
+      width: 90%;
+      background: #DCDC;
+      border-top: 2px solid #191970;
+      z-index: 5;
+      >li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40%;
+      }
+    }
+    .Hamburger{
+      position: absolute;
+      left: 5%;
+      cursor: pointer;
+    }
+  }
 `;
 
 export const Column = styled.div`
@@ -25,12 +60,6 @@ export const Column = styled.div`
   justify-content: center;
   align-items: center;
   gap: 100;
-
-  .logo-content {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
 `;
 
 export const Input = styled.input`

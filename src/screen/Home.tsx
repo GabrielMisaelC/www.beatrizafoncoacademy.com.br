@@ -5,15 +5,17 @@ import { Menu } from "../components/Menu";
 import Fade from "../components/SlickFade";
 import MultipleItems from "../components/MultipleItems";
 import BannerCurso from "../components/BannerCurso";
+import useMediaQuery from '../hooks/useMediaQuery';
 
 
 export function Home() {
 
+  const isScreenMin = useMediaQuery('(min-width: 901px)')
 
   return (
     <>
       <div>
-        <SliderSlick />
+        {isScreenMin &&  <SliderSlick />}
         <Top />
         <hr style={{ color: "#C0C0C0" }} />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -23,7 +25,6 @@ export function Home() {
           <Fade />
         </div>
         <MultipleItems />
-        {/* <BannerCurso /> */}
         <BaseBoard />
       </div>
     </>
