@@ -17,6 +17,11 @@ export const H1 = styled.h1`
   line-height: 43px;
   font-style: normal;
   letter-spacing: 0.05em;
+
+
+  @media screen and (max-width:   900px) {
+    font-size: 34px;
+  }
 `;
 
 export const H2 = styled.h2`
@@ -26,10 +31,15 @@ export const H2 = styled.h2`
   line-height: 28px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+
+  @media screen and (max-width:   900px) {
+    font-size: 14px;
+  }
 `;
 
 export const Hr = styled.hr`
   width: 200px;
+  border: 2px solid #4B0082;
 `;
 
 export const Div = styled.div`

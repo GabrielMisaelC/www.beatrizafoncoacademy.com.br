@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Box = styled.footer`
 /* padding: 10px 10px; */
-background: #191970;
+background: #4B0082;
 /* position: relative; */
 bottom: 0;
 width: 100%;

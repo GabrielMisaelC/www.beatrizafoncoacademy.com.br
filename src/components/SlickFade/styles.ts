@@ -20,23 +20,19 @@ export const Div = styled.div`
   }
 `;
 
-export const Img = styled.img`
-  height: 400px;
-  width: 1200px;
+// export const Img = styled.img`
+//   height: 400px;
+//   width: 1200px;
 
-  @media screen and (max-width: 1024px) {
-    height: auto;
-    width: 768px;
-  }
+//   @media screen and (max-width: 1024px) {
+//     height: auto;
+//     width: 768px;
+//   }
 
-  @media screen and (max-width: 300px) {
-    height: 400px;
-    width: 300px;
-  }
-  @media screen and (max-width: 600px) {
-    height: 400px;
-    width: 300px;
-  }
-`;
+//   @media screen and (max-width: 900px) {
+//     height: 400px;
+//     width: 300px;
+//   }
+// `;
 
 

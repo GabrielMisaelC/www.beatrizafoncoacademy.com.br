@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 export const Post = styled.div`
   height: 90%;
-  width: 40%;
+  width: 80%;
   display: block;
   align-items: center;
   text-align: center;
