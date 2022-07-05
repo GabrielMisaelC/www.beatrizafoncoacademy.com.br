@@ -13,11 +13,11 @@ export function Menu() {
     <Container>
       <Row>
         <Column>
-            {isScrenn900px ? <MobileNavigation /> : <Navigation />}
+            {isScrenn900px ? "" : <Navigation />}
         </Column>
-        <Column>
+        {/* <Column>
           {isScrennMin901px && <InputSearch />}
-        </Column>
+        </Column> */}
       </Row>
     </Container>
   )

@@ -1,16 +1,18 @@
 import { NavLinks } from "./navLinks";
 import { Nav } from "./styles";
 import { CgMenuRound } from 'react-icons/cg';
+import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { CgCloseO } from 'react-icons/cg';
 import { useState } from "react";
+import { AiOutlineClose } from 'react-icons/ai';
 
 export function MobileNavigation() {
   
   const [open, setOpen] = useState(false);
 
-  const hamburgerIcon = <CgMenuRound  className="Hamburger" size="40px" color="#000" onClick={() => setOpen(!open)} />
+  const hamburgerIcon = <HiOutlineMenuAlt1  className="Hamburger" size="30px" color="#000" onClick={() => setOpen(!open)} />
 
-  const closeIcon = <CgCloseO className="Hamburger" size="40px" color="#000" onClick={() => setOpen(!open)} />
+  const closeIcon = <AiOutlineClose className="Hamburger" size="30px" color="#000" onClick={() => setOpen(!open)} />
 
   const closeMobileMenu = () => setOpen(false);
 

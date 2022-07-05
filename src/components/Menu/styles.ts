@@ -48,7 +48,7 @@ export const Nav = styled.nav`
     }
     .Hamburger{
       position: absolute;
-      left: 5%;
+      right: 5%;
       cursor: pointer;
     }
   }

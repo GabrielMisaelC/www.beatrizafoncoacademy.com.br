@@ -5,8 +5,10 @@ import { Menu } from "../components/Menu";
 import Fade from "../components/SlickFade";
 import MultipleItems from "../components/MultipleItems";
 import useMediaQuery from '../hooks/useMediaQuery';
-import { BannerCurso } from "../components/BannerCurso";
 import { Maps } from "../components/Maps";
+import { CardAboutTeaching } from "../components/CardAboutTeaching";
+import { CardAboutTeam } from "../components/CardAboutTeam";
+import { CardAboutEquipment } from "../components/CardAboutEquipment";
 
 
 export function Home() {
@@ -27,7 +29,9 @@ export function Home() {
           <Fade />
         </div>
         <MultipleItems />
-        <BannerCurso />
+        <CardAboutTeaching />
+        <CardAboutTeam />
+        <CardAboutEquipment />
         <Maps/>
         <BaseBoard />
       </div>

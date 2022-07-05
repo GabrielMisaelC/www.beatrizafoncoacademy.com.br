@@ -6,8 +6,12 @@ import { Titulo } from '../Titulo';
 
 
 // import Logo from './logo_Beatriz_Afonco.jpg';
+import useMediaQuery from '../../hooks/useMediaQuery';
+import { MobileNavigation } from '../Menu/mobileNavigation';
 
 export function Top() {
+
+  const isSreen900 = useMediaQuery('(max-width: 900px)');
   return (
     <Container>
       <Row>
@@ -28,8 +32,9 @@ export function Top() {
             gap: 50,
             justifyContent: 'center',
           }}>
-            <MdOutlineLocationOn size={30} color={'#000000	'} />
-            <BsHandbag size={30} color={'#000000	'} />
+            <MdOutlineLocationOn size={30} color={'#000000	'} onClick={() => console.log("clicou")} />
+            {/* <BsHandbag size={30} color={'#000000	'} /> */}
+            {isSreen900 && <MobileNavigation /> }
           </Row>
         </Column>
       </Row>

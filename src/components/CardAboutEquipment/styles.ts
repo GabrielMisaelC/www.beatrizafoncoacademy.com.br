@@ -8,6 +8,10 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width:   900px) {
+    flex-direction: column;
+  }
 `;
 
 
@@ -18,13 +22,24 @@ export const Post = styled.div`
   align-items: center;
   text-align: center;
   align-items: center;
+
+  @media screen and (max-width:   900px) {
+    height: 400px;
+    width: 300px;
+  }
 `;
 
 
 export const Img = styled.img`
   width: 500px;
+  height: 600px;
   /* padding-top: 10px; */
   border-radius: 10%;
+
+  @media screen and (max-width:   900px) {
+    height: 400px;
+    width: 300px;
+  }
 `;
 
 export const H1 = styled.h1`

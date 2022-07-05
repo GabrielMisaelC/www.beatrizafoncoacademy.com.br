@@ -14,6 +14,9 @@ export function NavLinks(props: any) {
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Titulo href='/#fotos' text='Fotos' />
+      </li>      
+      <li onClick={() => props.isMobile && props.closeMobileMenu()}>
+        <Titulo href='/#localizar' text='Localizar' />
       </li>
     </ul>
   );
