@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
     outline: none;
     box-sizing: border-box;
   }
+
+  html{
+    scroll-behavior: smooth;
+  }
 `;
  
 export default GlobalStyle;

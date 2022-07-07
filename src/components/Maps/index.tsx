@@ -9,7 +9,7 @@ export function Maps() {
 
 
   const isScrenn900 = useMediaQuery('(max-width: 900px)');
-  
+
   return (
     <div style={{ textAlign: "center" }}>
       <H1>Venha nos Visitar</H1>

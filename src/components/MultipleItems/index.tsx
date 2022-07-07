@@ -52,11 +52,7 @@ export default class MultipleItems extends Component {
       { img: img01, title: 'Alongamento de unhas' },
       { img: img02, title: 'BB Glow' },
       { img: img03, title: 'Lash Lifting' },
-      { img: img04, title: 'Glow Lips' },
-      { img: img04, title: 'Glow Lips' },
-      { img: img03, title: 'Lash Lifting' },
-      { img: img03, title: 'Lash Lifting' },
-      { img: img03, title: 'Lash Lifting' }
+      { img: img04, title: 'Glow Lips' }
     ];
 
 

@@ -32,9 +32,13 @@ export function Top() {
             gap: 50,
             justifyContent: 'center',
           }}>
-            <MdOutlineLocationOn size={30} color={'#000000	'} onClick={() => console.log("clicou")} />
+            {/* <Link to='#maps'> */}
+            <a href="#maps">
+              <MdOutlineLocationOn size={30} color={'#000000	'}/>
+              </a>
+            {/* </Link> */}
             {/* <BsHandbag size={30} color={'#000000	'} /> */}
-            {isSreen900 && <MobileNavigation /> }
+            {isSreen900 && <MobileNavigation />}
           </Row>
         </Column>
       </Row>

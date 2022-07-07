@@ -7,16 +7,22 @@ export function NavLinks(props: any) {
         <Titulo href='/#home' text='Home' />
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <Titulo href='/#produtos' text='Produtos' />
+        <Titulo href='#teaching' text='Cursos' />
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <Titulo href='/#servicos' text='Serviços' />
+        <Titulo href='#services' text='Serviços' />
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <Titulo href='/#fotos' text='Fotos' />
-      </li>      
+        <Titulo href='#aboutServices' text='Sobre Serviços' />
+      </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <Titulo href='/#localizar' text='Localizar' />
+        <Titulo href='#team' text='Equipe' />
+      </li>
+      <li onClick={() => props.isMobile && props.closeMobileMenu()}>
+        <Titulo href='#equipment' text='Equipamentos' />
+      </li>
+      <li onClick={() => props.isMobile && props.closeMobileMenu()}>
+        <Titulo href='#maps' text='Localizar' />
       </li>
     </ul>
   );

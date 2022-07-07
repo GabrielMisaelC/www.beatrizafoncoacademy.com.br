@@ -9,6 +9,8 @@ import { Maps } from "../components/Maps";
 import { CardAboutTeaching } from "../components/CardAboutTeaching";
 import { CardAboutTeam } from "../components/CardAboutTeam";
 import { CardAboutEquipment } from "../components/CardAboutEquipment";
+import { CardAboutServices } from "../components/CardAboutServices";
+import { ButtonWhatsApp } from "../components/ButtonWhatsApp";
 
 
 export function Home() {
@@ -17,22 +19,37 @@ export function Home() {
 
   return (
     <>
-
       <div>
-        {isScreenMin &&  <SliderSlick />}
-        <Top />
-        <hr style={{ border: "2px solid #4B0082" }} />
+        {isScreenMin && <SliderSlick />}
+        <div id="home"  >
+          <Top />
+        </div>
+        <hr style={{ border: "2px solid #4B0082"}} />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
           <Menu />
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '20px' }}>
           <Fade />
         </div>
-        <MultipleItems />
-        <CardAboutTeaching />
-        <CardAboutTeam />
-        <CardAboutEquipment />
-        <Maps/>
+        <div id="services">
+          <MultipleItems />
+        </div>
+        <div id="teaching">
+          <CardAboutTeaching />
+        </div>
+        <div id="team">
+          <CardAboutTeam />
+        </div>
+        <div id="equipment">
+          <CardAboutEquipment />
+        </div>
+        <div id="aboutServices">
+          <CardAboutServices />
+        </div>
+        <div id="maps">
+          <Maps />
+        </div>
+        <ButtonWhatsApp />
         <BaseBoard />
       </div>
     </>

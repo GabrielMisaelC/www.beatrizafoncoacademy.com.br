@@ -3,9 +3,6 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import { Catalog } from "./screen/Catalog";
-import { Cart } from './screen/Cart';
-import { Login } from "./screen/Login";
 import { Home } from './screen/Home';
 
 export function AppRoutes() {
@@ -13,9 +10,9 @@ export function AppRoutes() {
     <Router>
       <Routes>
         <Route path="" element={<Home />}/>
-        <Route path="/login" element={<Login />}/>
+        {/* <Route path="/login" element={<Login />}/>
         <Route  path="/catalog" element={<Catalog />}/>
-        <Route  path="/cart" element={<Cart />}/>
+        <Route  path="/cart" element={<Cart />}/> */}
       </Routes>
     </Router>
   )

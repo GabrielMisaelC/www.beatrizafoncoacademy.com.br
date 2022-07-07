@@ -1,15 +1,14 @@
 import { Box, Container, H1, H2, Hr, HrEnd, Img, P, Post, PostSlider } from "./styles";
-import img03 from "../../images/ImagensCurso/img03.jpeg"
 import useMediaQuery from '../../hooks/useMediaQuery';
 import SilderCard from "../SilderCard";
 
-export function CardAboutTeam() {
+export function CardAboutServices() {
 
   const isScrenn900 = useMediaQuery('(max-width: 900px)');
 
   return (
     <Box>
-      <H1>{isScrenn900 ? "Equipe" : "Equipe Altamente Qualificada"}</H1>
+      <H1>{isScrenn900 ? "Procedimentos" : "Procedimentos Preparados Para Você"}</H1>
       <H2></H2>
       <Hr />
       <Container style={{ gap: 20 }}>
@@ -17,7 +16,7 @@ export function CardAboutTeam() {
           < SilderCard />
         </PostSlider>}
         <Post>
-          <H1>Sobre Nossa Equipe</H1>
+          <H1>Tudo Sobre Nossos Procedimentos</H1>
           <H2>Saiba Mais</H2>
           <Hr />
           <P>

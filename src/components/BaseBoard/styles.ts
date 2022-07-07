@@ -6,6 +6,7 @@ background: #4B0082;
 /* position: relative; */
 bottom: 0;
 width: 100%;
+height: 130px;
 `;
 
 export const Container = styled.div`

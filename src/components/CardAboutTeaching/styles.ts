@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+
+export const Box = styled.div`
+text-align: center;
+@media screen and (max-width:   900px) {
+    height: 80%;
+  }
+`;
+
 export const Container = styled.div`
   width: 100%;
   height: 700px;
@@ -14,6 +22,16 @@ export const Container = styled.div`
   }
 `;
 
+
+export const PostSlider = styled.div`
+  width: 500px;
+  height: 600px;
+
+  @media screen and (max-width:   900px) {
+    height: 300px;
+    width: 200px;
+  }
+`;
 
 export const Post = styled.div`
   height: 90%;
@@ -37,8 +55,8 @@ export const Img = styled.img`
   border-radius: 10%;
 
   @media screen and (max-width:   900px) {
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
   }
 `;
 
@@ -66,7 +84,7 @@ export const H2 = styled.h2`
   text-transform: uppercase;
 
   @media screen and (max-width:   900px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
 
@@ -83,4 +101,18 @@ export const Div = styled.div`
   flex-direction: row;
   justify-content: center;
   padding-top: 20px;
+`;
+
+export const HrEnd = styled.hr`
+width: 80%;
+border: 2px solid #4B0082;
+`;
+
+export const P = styled.p`
+font-size: 30px;
+font-family: 'EB Garamond';
+
+@media screen and (max-width:   900px) {
+    font-size: 14px;
+  }
 `;
