@@ -11,6 +11,7 @@ import { CardAboutTeam } from "../components/CardAboutTeam";
 import { CardAboutEquipment } from "../components/CardAboutEquipment";
 import { CardAboutServices } from "../components/CardAboutServices";
 import { ButtonWhatsApp } from "../components/ButtonWhatsApp";
+import { CardAboutSpace } from "../components/CardAboutSpace";
 
 
 export function Home() {
@@ -45,6 +46,9 @@ export function Home() {
         </div>
         <div id="aboutServices">
           <CardAboutServices />
+        </div>
+        <div id="space">
+          <CardAboutSpace />
         </div>
         <div id="maps">
           <Maps />
