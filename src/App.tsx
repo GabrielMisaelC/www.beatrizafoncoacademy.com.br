@@ -1,4 +1,3 @@
-import { Tweet } from "./components/Tweet";
 import { Fragment, useState } from 'react';
 import { AppRoutes } from "./Routes";
 import "slick-carousel/slick/slick.css"; 
