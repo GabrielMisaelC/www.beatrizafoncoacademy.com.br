@@ -1,7 +1,7 @@
 import { Box, Container, H1, H2, Hr, HrEnd, Img, P, Post, PostSlider } from "./styles";
 import img03 from "../../images/ImagensCurso/img03.jpeg"
 import useMediaQuery from '../../hooks/useMediaQuery';
-import SilderCard from "../SilderCard";
+import SilderCardTeam from './SliderCardTeam/index';
 
 export function CardAboutTeam() {
 
@@ -14,7 +14,7 @@ export function CardAboutTeam() {
       <Hr />
       <Container style={{ gap: 20 }}>
         {isScrenn900 && <PostSlider>
-          < SilderCard />
+          < SilderCardTeam />
         </PostSlider>}
         <Post>
           <H1>Sobre Nossa Equipe</H1>
@@ -25,7 +25,7 @@ export function CardAboutTeam() {
           </P>
         </Post>
         {isScrenn900 ? "" : <PostSlider>
-          < SilderCard />
+          < SilderCardTeam />
         </PostSlider>}
       </Container>
       <HrEnd />

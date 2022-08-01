@@ -16,8 +16,8 @@ export function Top() {
     <Container>
       <Row>
         <Column>
-          <Link to='/login'>
-            <BsPerson size={30} color={'#000000	'} /> </Link>
+          {/* <Link to='/login'>
+            <BsPerson size={30} color={'#000000	'} /> </Link> */}
         </Column>
         <Column>
           <Row style={{

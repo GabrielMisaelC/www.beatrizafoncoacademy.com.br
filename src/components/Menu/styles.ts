@@ -35,15 +35,18 @@ export const Nav = styled.nav`
       flex-direction: column;
       position: absolute;
       left: 0;
-      top: 80px;
-      width: 90%;
-      background: #DCDC;
+      top: 70px;
+      width: 93%;
+      height: 100%;
+      background: #FFF;
       border-top: 2px solid #191970;
       z-index: 5;
       >li{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 40%;
+        text-align: center;
+        border-bottom: 2px solid #191970;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        /* padding-left: 40%; */
       }
     }
     .Hamburger{

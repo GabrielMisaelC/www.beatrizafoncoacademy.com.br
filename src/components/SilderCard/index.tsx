@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 
 import img03 from "../../images/ImagensCurso/img03.jpeg"
+import procedimento01 from "../../imagesProcedimentos/procedimento01.jpg"
+import procedimento02 from "../../imagesProcedimentos/procedimento02.jpg"
+import procedimento03 from "../../imagesProcedimentos/procedimento03.jpg"
+
 import { Img, H1, H2, Hr, Div } from './styles';
 
 export default class SilderCard extends Component {
@@ -44,7 +48,6 @@ export default class SilderCard extends Component {
 
 
     const posts = [
-      { img: img03 },
       { img: img03 },
       { img: img03 },
       { img: img03 }

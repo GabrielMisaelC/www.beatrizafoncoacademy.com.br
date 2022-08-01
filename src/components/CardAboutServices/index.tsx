@@ -1,6 +1,7 @@
 import { Box, Container, H1, H2, Hr, HrEnd, Img, P, Post, PostSlider } from "./styles";
 import useMediaQuery from '../../hooks/useMediaQuery';
-import SilderCard from "../SilderCard";
+import SilderCard from "./SliderCard";
+
 
 export function CardAboutServices() {
 

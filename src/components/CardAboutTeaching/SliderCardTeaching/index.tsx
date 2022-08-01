@@ -7,7 +7,7 @@ import imgUnhas from "../image/unhas.jpeg"
 
 
 
-export default class SilderCardSpace extends Component {
+export default class SilderCardSpaceTeaching extends Component {
   render() {
     const settings = {
       infinite: true,

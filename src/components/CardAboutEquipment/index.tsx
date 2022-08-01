@@ -1,6 +1,8 @@
 import { Container, H1, H2, Hr, Img, Post, P, HrEnd, Box, PostSlider } from "./styles";
 import useMediaQuery from '../../hooks/useMediaQuery';
-import SilderCard from "../SilderCard";
+import SilderCardEquipament from "./SliderCardEquipament";
+
+
 
 export function CardAboutEquipment() {
 
@@ -13,7 +15,7 @@ export function CardAboutEquipment() {
       <Hr />
       <Container style={{gap: 20}}>
         <PostSlider>
-          < SilderCard />
+          < SilderCardEquipament />
         </PostSlider>
         <Post>
           <H1>{isScrenn900 ? "Equipamentos Modernos" : "Melhores Equipamentos Para Atender"}</H1>

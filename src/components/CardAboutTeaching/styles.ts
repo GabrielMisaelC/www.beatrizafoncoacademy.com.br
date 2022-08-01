@@ -21,7 +21,34 @@ export const Container = styled.div`
     flex-direction: column;
   }
 `;
+export const Button = styled.button`
+  background-color: #4B0082;   
+  border: 0;
+  font-family: Staatliches;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 6px 12px;
+  width: 60%;
+  height: 40px;
+  color: #FFF;
 
+  &:hover {
+    background-color: #191970;
+  }
+`;
+
+export const Input = styled.input`
+  width: 400px;
+  height: 40px;
+  border: 3px solid #ccc;
+  font-size: 18px;
+  font-family: Staatliches;
+  border-radius: 50px;
+  text-align: center;
+  @media screen and (max-width:   900px) {
+    width: 200px;
+  }
+  `;
 
 export const PostSlider = styled.div`
   width: 500px;
