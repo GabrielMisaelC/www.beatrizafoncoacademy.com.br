@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 export const A = styled.a`
+  white-space: nowrap;
   font-size: 16px;
   font-family: EB Garamond;
   color: #000;

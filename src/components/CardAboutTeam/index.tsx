@@ -21,7 +21,7 @@ export function CardAboutTeam() {
           <H2>Saiba Mais</H2>
           <Hr />
           <P>
-            O Espaço Beatriz Afonço possui três profissionais qualificadas em suas respectivas áreas, as quais estão sempre em treinamento para se especializar com as novas técnicas e conceitos para entregar o melhor procedimento para as clientes.
+          Nossa equipe está sempre em treinamento buscando conhecimento para entregar um excelente serviço e atendimento.
           </P>
         </Post>
         {isScrenn900 ? "" : <PostSlider>

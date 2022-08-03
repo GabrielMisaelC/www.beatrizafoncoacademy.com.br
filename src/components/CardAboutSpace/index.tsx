@@ -20,8 +20,8 @@ export function CardAboutSpace() {
           <H2>Saiba Mais</H2>
           <Hr />
           <P>
-          O Espaço Beatriz Afonço possui três profissionais qualificadas em suas respectivas áreas, as quais estão sempre em treinamento para se especializar com as novas técnicas e conceitos para entregar o melhor procedimento para as clientes.
-          </P>
+          Um espaço coberto de amor e carinho para te oferecer, um método acadêmico formado de sonhos e um instituto restaurador de autoestima. Eu e minha equipe trabalhamos diariamente e constantemente para transformar vidas, oferecendo que cada pessoa conquiste seu protagonismo, independência e sucesso. Seja bem-vinda à nossa história! Entra, sinta o nosso aroma e se saboreie com nosso cappuccino!
+         </P>
         </Post>
       </Container>
       <HrEnd />

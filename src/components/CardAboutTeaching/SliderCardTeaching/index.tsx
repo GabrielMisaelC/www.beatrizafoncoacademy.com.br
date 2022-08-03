@@ -4,6 +4,7 @@ import { Img, Div } from './styles';
 import imgSala from "../image/sala01.jpeg"
 import imgHall from "../image/hall.jpeg"
 import imgUnhas from "../image/unhas.jpeg"
+import img03   from "../../../images/ImagensCurso/img03.jpeg"
 
 
 
@@ -17,9 +18,7 @@ export default class SilderCardSpaceTeaching extends Component {
     };
 
     const posts = [
-      { img: imgHall },
-      { img: imgSala },
-      { img: imgUnhas }
+      { img: img03 }
     ];
 
     return (

@@ -22,8 +22,8 @@ export function CardAboutEquipment() {
           <H2>Saiba Mais</H2>
           <Hr />
           <P>
-          O Espaço Beatriz Afonço possui três profissionais qualificadas em suas respectivas áreas, as quais estão sempre em treinamento para se especializar com as novas técnicas e conceitos para entregar o melhor procedimento para as clientes.
-          </P>
+          Trabalhamos com equipamento de alta tecnologia, e cada cliente possui seus instrumentos individuais para o serviço realizado.
+         </P>
         </Post>
       </Container>
       <HrEnd />

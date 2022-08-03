@@ -29,6 +29,7 @@ export const Nav = styled.nav`
     list-style: none;
   }
 
+
   @media screen and (max-width:   900px) {
     align-items: center;
     >ul{

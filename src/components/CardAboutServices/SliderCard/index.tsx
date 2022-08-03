@@ -4,6 +4,7 @@ import { Img, Div } from './styles';
 import procedimento01 from "../images/procedimento01.jpg"
 import procedimento02 from "../images/procedimento02.jpg"
 import procedimento03 from "../images/procedimento03.jpg"
+import procedimento04 from "../images/procedimento04.jpg"
 
 export default class SilderCard extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class SilderCard extends Component {
     };
 
     const posts = [
-      { img: procedimento02 },
+      { img: procedimento04},
       { img: procedimento03 },
       { img: procedimento01 }
     ];

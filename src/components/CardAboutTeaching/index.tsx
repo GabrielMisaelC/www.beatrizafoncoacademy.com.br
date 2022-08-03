@@ -28,7 +28,7 @@ export function CardAboutTeaching() {
           <H2>Saiba Mais</H2>
           <Hr />
           <P>
-            O Espaço Beatriz Afonço possui três profissionais qualificadas em suas respectivas áreas, as quais estão sempre em treinamento para se especializar com as novas técnicas e conceitos para entregar o melhor procedimento para as clientes.
+          Método de ensino Beatriz Afonço Academy - Em nossa metodologia de ensino fazemos você entender e respeitar o seu processo de crescimento para desenvolver as habilidades das técnicas, mostrando o caminho certo para você seguir e ser uma profissional de sucesso. Entendemos que as técnicas são apenas ferramentas para vocês espalharem o carinho, pois é mais que uma profissão, renovamos vidas por trás da aparência. Conheça nossos cursos abaixo:
           </P>
         </Post>
       </Container>}

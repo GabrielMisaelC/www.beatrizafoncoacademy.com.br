@@ -21,7 +21,7 @@ export function CardAboutServices() {
           <H2>Saiba Mais</H2>
           <Hr />
           <P>
-            O Espaço Beatriz Afonço possui três profissionais qualificadas em suas respectivas áreas, as quais estão sempre em treinamento para se especializar com as novas técnicas e conceitos para entregar o melhor procedimento para as clientes.
+          Defendemos que a revolução da beleza é natural. Em todos os procedimentos do nosso espaço aplicamos a naturalidade, e claro respeitando sempre o crescimento fisiológico. O método Beatriz Afonço Beauty ressalta a beleza que é somente sua.
           </P>
         </Post>
         {isScrenn900 ? "" : <PostSlider>
