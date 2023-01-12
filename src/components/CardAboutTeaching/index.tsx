@@ -14,6 +14,9 @@ export function CardAboutTeaching() {
 
   const isScrenn900 = useMediaQuery('(max-width: 900px)');
 
+  function click(){
+    window.location.href = 'https://api.whatsapp.com/send?phone=5511959725770&text=Olá,%20Gostaria%20de%20Mais%20Informações';
+  }
   return (
     <Box>
       <H1>{isScrenn900 ? "Cursos" : "Adquira Novos Conhecimentos"}</H1>
@@ -45,7 +48,7 @@ export function CardAboutTeaching() {
       </div>
       </div>}
       {!isform &&     <div style={{ paddingTop: '20px', paddingBottom: '20px' }}>
-        <Button onClick={() => setIsForm(true)}>Quero me Inscrever!</Button>
+        <Button onClick={() => click()}>Quero me Inscrever!</Button>
       </div>}
       <HrEnd />
     </Box>

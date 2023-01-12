@@ -7,6 +7,7 @@ background: #4B0082;
 bottom: 0;
 width: 100%;
 height: 130px;
+text-aling: center;
 `;
 
 export const Container = styled.div`
@@ -20,4 +21,15 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 text-align: left;
+`;
+
+export const P = styled.p`
+text-align: center;
+color: white;
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+letter-spacing: 0.09em;
 `;

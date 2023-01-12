@@ -29,12 +29,12 @@ export default function New(){
             <div id="team">
                 <CardAboutTeam />
             </div>
-            <div id="equipment">
+            {/* <div id="equipment">
                 <CardAboutEquipment />
-            </div>
-            <div id="aboutServices">
+            </div> */}
+            {/* <div id="aboutServices">
                 <CardAboutServices />
-            </div>
+            </div> */}
             <div id="space">
                 <CardAboutSpace />
             </div>

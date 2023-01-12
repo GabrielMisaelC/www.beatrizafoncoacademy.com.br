@@ -8,7 +8,7 @@ export function ButtonAgenda() {
   
   return (
     <Span>
-      <a href="https://api.whatsapp.com/send?phone=5511959725770&text=Olá,%20Gostaria%20de%20Mais%20Informações">
+      <a href="https://www.trinks.com/sao-paulo-sp/belenzinho?logradouro=Rua%20Herval%2C%20427&latitude=-23.5413903&longitude=-46.5911449&pesquisa=Beatriz%20Afon%C3%A7o%20Beauty%20#somenteComDesconto=false&precoInicial=&precoFinal=&dataPesquisa=12/01/2023&idCategoria=&facilidades=">
 
         {isScrenn900 ? <TbCalendarStats size={25} color={'#000'} /> : <TbCalendarStats size={30} color={'#000'} />}
         

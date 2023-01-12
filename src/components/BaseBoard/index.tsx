@@ -1,4 +1,4 @@
-import { Box, Container, Column} from "./styles";
+import { Box, Container, Column, P} from "./styles";
 import { BsFacebook, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 import { FaInstagram } from 'react-icons/fa';
 import { SiGoogle } from 'react-icons/si';
@@ -20,6 +20,7 @@ export function BaseBoard() {
             <BsWhatsapp size={30} color={'#DCDCDC'}/>
         </Column>  
     </Container>
+    <P>DESENVOLVIDO POR: GABRIEL MISAEL</P>
   </Box>
   );
 }
