@@ -44,6 +44,7 @@ export const H1 = styled.h1`
   line-height: 43px;
   font-style: normal;
   letter-spacing: 0.05em;
+  color: white;
 
 
   @media screen and (max-width:   900px) {
@@ -59,6 +60,7 @@ export const SubH1 = styled.h1`
   line-height: 43px;
   font-style: normal;
   letter-spacing: 0.05em;
+  color: white;
 
 
   @media screen and (max-width:   900px) {
@@ -73,6 +75,7 @@ export const H2 = styled.h2`
   line-height: 28px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  color: white;
 
   @media screen and (max-width:   900px) {
     font-size: 14px;
@@ -144,5 +147,6 @@ export const A = styled.a`
   padding: 0.25em 1em;
   transition: 0.5s all ease-out;
   text-decoration:none;
+  color: white;
 `;
 

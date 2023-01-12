@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 
 export const Div = styled.div`
-  background-color: white;
   position: relative;
   width: 500px;
   height: 600px;
@@ -22,6 +21,7 @@ export const Img = styled.img`
   width: 500px;
   height: 600px;
   border-radius: 2%;
+  opacity : 0.8;
 
   @media screen and (max-width:   900px) {
     height: 300px;
