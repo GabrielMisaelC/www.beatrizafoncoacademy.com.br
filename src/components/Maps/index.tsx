@@ -28,7 +28,7 @@ export function Maps() {
           </div>
         </Div> */}
       </Container>
-      <hr style={{ width: '80%', border: "2px solid #4B0082" }} />
+      <hr style={{ width: '80%', border: "2px solid #DB7093" }} />
     </div>
   );
 }
