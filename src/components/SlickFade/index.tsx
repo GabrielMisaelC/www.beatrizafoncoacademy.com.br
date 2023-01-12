@@ -39,7 +39,7 @@ export default class Fade extends Component {
         <br />
         <br />
         <br />
-        <hr style={{ width: '80%', border: "2px solid #4B0082" }} />
+        <hr style={{ width: '80%', border: "2px solid #DB7093" }} />
       </Div>
     );
   }

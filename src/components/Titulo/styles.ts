@@ -15,7 +15,7 @@ export const A = styled.a`
     text-decoration: underline #000;
     left: 0px;
     top: 10px;
-    text-decoration-color: #4B0082; 
+    text-decoration-color: #DB7093; 
     text-decoration-thickness: 40%;
     white-space: pre;
   }

@@ -91,7 +91,7 @@ export const H2 = styled.h2`
 
 export const Hr = styled.hr`
   width: 200px;
-  border: 2px solid #4B0082;
+  border: 2px solid #DB7093;
 `;
 
 export const Div = styled.div`
@@ -106,7 +106,7 @@ export const Div = styled.div`
 
 export const HrEnd = styled.hr`
 width: 80%;
-border: 2px solid #4B0082;
+border: 2px solid #DB7093;
 `;
 
 export const P = styled.p`

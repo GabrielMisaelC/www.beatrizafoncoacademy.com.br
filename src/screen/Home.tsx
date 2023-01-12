@@ -25,7 +25,7 @@ export function Home() {
         <div id="home"  >
           <Top />
         </div>
-        <hr style={{ border: "2px solid #4B0082"}} />
+        <hr style={{ border: "2px solid #DB7093"}} />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
           <Menu />
         </div>
