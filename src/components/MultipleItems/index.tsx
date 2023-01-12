@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import img01 from '../../imagesProcedimentos/img01.jpeg';
-import img02 from '../../imagesProcedimentos/img02.jpeg';
-import img03 from '../../imagesProcedimentos/img03.jpeg';
-import img04 from '../../imagesProcedimentos/img04.jpeg';
+import designdeSobrancelha from './images/DesigndeSobrancelha.jpeg';
+import browLamination from './images/browLamination.jpeg';
+import lashLiftin from './images/lashLifting.jpeg';
+import alongamentoUnha from './images/alongamentoUnha.jpeg';
 import { Img, H1, H2, Hr, Div } from './styles';
 
 export default class MultipleItems extends Component {
@@ -49,10 +49,10 @@ export default class MultipleItems extends Component {
 
 
     const posts = [
-      { img: img01, title: 'Alongamento de unhas' },
-      { img: img02, title: 'BB Glow' },
-      { img: img03, title: 'Lash Lifting' },
-      { img: img04, title: 'Glow Lips' }
+      { img: alongamentoUnha, title: 'Alongamento de Unhas' },
+      { img: browLamination, title: 'Brow Lamination' },
+      { img: lashLiftin, title: 'Lash Lifting' },
+      { img: designdeSobrancelha, title: 'Design de Sobrancelha' }
     ];
 
 

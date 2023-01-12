@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Div, Conteiner, Titulo, Img } from "./styles";
-import firts from "./images/firts.jpg";
-import firtsBanner2 from "./images/firtsBanner2.jpg";
-import firtsBanner3 from "./images/firtsBanner3.jpg"
+import { Div, Conteiner, Titulo, Img, Meio, PostSlider, DivButton } from "./styles";
+
+import principal1 from "./images/Principal1.png";
+import principal2 from "./images/Principal2.png";
+import principal3 from "./images/Principal3.png";
+
+import { ButtonInstagram } from "./components/ButtonIntagram";
+import { ButtonFacebook } from "./components/ButtonFacebook";
+import { ButtonAgenda } from "./components/ButtonAgenda";
 
 export default class FirtsBanner extends Component {
   render() {
@@ -11,20 +16,25 @@ export default class FirtsBanner extends Component {
       infinite: true,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 4000,
-      autoplaySpeed: 4000,
+      fade: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
     };
 
     const imgs = [
-      { img: firtsBanner2},
-      { img: firts},
-      { img: firtsBanner3}
+      { img: principal1},
+      { img: principal2},
+      { img: principal3}
     ];
 
 
     return (
       <Conteiner>
         <Titulo>Arraste Para Cima</Titulo>
+        
+        <Meio style={{ gap: 20 }}>
+
+        <PostSlider>
         <Slider {...settings}>
         {imgs.map((item, index) => {
             return (
@@ -34,6 +44,21 @@ export default class FirtsBanner extends Component {
             );
           })}
         </Slider>
+        </PostSlider>
+
+        <DivButton style={{ gap: 20 }}>
+          <div>
+            <ButtonInstagram/>
+          </div>
+          <div>
+            <ButtonFacebook/>
+          </div>
+          <div>
+            <ButtonAgenda/>
+          </div>
+        </DivButton>
+
+        </Meio>
       </Conteiner>
     );
   }

@@ -68,7 +68,7 @@ export const H1 = styled.h1`
   line-height: 50px;
   font-style: normal;
   letter-spacing: 0.07em;
-  color: white;
+  color: #000;
 
   @media screen and (max-width:   900px) {
     font-size: 36px;
@@ -82,7 +82,7 @@ export const H2 = styled.h2`
   line-height: 28px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: white;
+  color: #000;
 
   @media screen and (max-width:   900px) {
     font-size: 12px;
@@ -112,7 +112,7 @@ border: 2px solid #4B0082;
 export const P = styled.p`
 font-size: 30px;
 font-family: 'EB Garamond';
-color: white;
+color: #000;
 
 @media screen and (max-width:   900px) {
     font-size: 14px;

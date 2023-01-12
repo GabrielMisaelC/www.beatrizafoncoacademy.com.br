@@ -10,19 +10,16 @@ export const Container = styled.div`
   align-items: center;
 
   @media screen and (max-width:   900px) {
-    height: 500px;
-}
+    flex-direction: column;
+  }
 `;
 
 
 export const Post = styled.div`
-  height: 90%;
-  width: 80%;
   display: block;
   align-items: center;
   text-align: center;
   align-items: center;
-
 
 `;
 
@@ -44,23 +41,7 @@ export const H1 = styled.h1`
   line-height: 43px;
   font-style: normal;
   letter-spacing: 0.05em;
-  color: white;
-
-
-  @media screen and (max-width:   900px) {
-    font-size: 34px;
-  }
-`;
-
-export const SubH1 = styled.h1`
-  padding-top: 10px;
-  font-family: "EB Garamond";
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 43px;
-  font-style: normal;
-  letter-spacing: 0.05em;
-  color: white;
+  color: #000;
 
 
   @media screen and (max-width:   900px) {
@@ -75,7 +56,7 @@ export const H2 = styled.h2`
   line-height: 28px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: white;
+  color: #000;
 
   @media screen and (max-width:   900px) {
     font-size: 14px;
@@ -88,65 +69,11 @@ export const Hr = styled.hr`
 `;
 
 export const Div = styled.div`
-  background-color: white;
-  width: 350px;
-  height: 300px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+@media screen and (max-width:   900px) {
+  width: 50%;
+}
 `;
-
-export const Nav = styled.nav`
-  >ul{
-    display: flex;
-    flex: 2;
-    flex-direction: column;
-    justify-content: 'center';
-    list-style: none;
-  }
-
-  >li{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 40%;
-      }
-
-  @media screen and (max-width:   900px) {
-    align-items: center;
-    >ul{
-      position: absolute;
-      left: 0;
-      top: 80px;
-      width: 90%;
-      background: #DCDC;
-      border-top: 2px solid #191970;
-      z-index: 5;
-      >li{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 40%;
-      }
-    }
-    .Hamburger{
-      position: absolute;
-      left: 5%;
-      cursor: pointer;
-    }
-  }
-`;
-
-export const A = styled.a`
-  font-size: 28px;
-  font-family: EB Garamond;
-  color: #000;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 0 1em;
-  padding: 0.25em 1em;
-  transition: 0.5s all ease-out;
-  text-decoration:none;
-  color: white;
-`;
-
