@@ -16,7 +16,6 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
   @media screen and (max-width:   900px) {
     flex-direction: column;
   }
@@ -53,6 +52,7 @@ export const Img = styled.img`
   height: 600px;
   /* padding-top: 10px; */
   border-radius: 10%;
+  opacity : 0.8;
 
   @media screen and (max-width:   900px) {
     height: 300px;
@@ -63,15 +63,15 @@ export const Img = styled.img`
 export const H1 = styled.h1`
   padding-top: 30px;
   font-family: "EB Garamond";
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 500;
-  line-height: 43px;
+  line-height: 50px;
   font-style: normal;
-  letter-spacing: 0.05em;
-
+  letter-spacing: 0.07em;
+  color: white;
 
   @media screen and (max-width:   900px) {
-    font-size: 34px;
+    font-size: 36px;
   }
 `;
 
@@ -82,6 +82,7 @@ export const H2 = styled.h2`
   line-height: 28px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  color: white;
 
   @media screen and (max-width:   900px) {
     font-size: 12px;
@@ -111,6 +112,7 @@ border: 2px solid #4B0082;
 export const P = styled.p`
 font-size: 30px;
 font-family: 'EB Garamond';
+color: white;
 
 @media screen and (max-width:   900px) {
     font-size: 14px;
