@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonCss = styled.button`
+  background: white;
   border-color: #000;  
   border: 1;
   font-family: Staatliches;

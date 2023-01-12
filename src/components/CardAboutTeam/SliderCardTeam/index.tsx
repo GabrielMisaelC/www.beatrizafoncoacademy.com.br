@@ -4,6 +4,8 @@ import { Img, Div } from './styles';
 import procedimento01 from "../images/procedimento01.jpg"
 import procedimento02 from "../images/procedimento02.jpg"
 import procedimento03 from "../images/procedimento03.jpg"
+import equipe from '../images/equipe.jpeg';
+
 
 export default class SilderCardTeam extends Component {
   render() {
@@ -15,9 +17,7 @@ export default class SilderCardTeam extends Component {
     };
 
     const posts = [
-      { img: procedimento02 },
-      { img: procedimento03 },
-      { img: procedimento01 }
+      { img: equipe }
     ];
 
     return (

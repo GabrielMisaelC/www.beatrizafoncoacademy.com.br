@@ -9,7 +9,7 @@ export function ButtonFacebook() {
   
   return (
     <Span>
-      <a href="https://api.whatsapp.com/send?phone=5511959725770&text=Olá,%20Gostaria%20de%20Mais%20Informações">
+      <a href="https://www.facebook.com/beatrizafoncobeauty">
         {isScrenn900 ? <TbBrandFacebook size={25} color={'#000'} /> : <TbBrandFacebook size={30} color={'#000'} />}
       </a>
     </Span>
