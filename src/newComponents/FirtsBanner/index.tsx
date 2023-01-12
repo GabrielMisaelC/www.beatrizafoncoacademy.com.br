@@ -4,7 +4,7 @@ import { Div, Conteiner, Titulo, Img, Meio, PostSlider, DivButton } from "./styl
 
 import principal1 from "./images/Principal1.png";
 import principal2 from "./images/Principal2.png";
-import principal3 from "./images/Principal3.png";
+import principal3 from "./images/principal3.png";
 
 import { ButtonInstagram } from "./components/ButtonIntagram";
 import { ButtonFacebook } from "./components/ButtonFacebook";
